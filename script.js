@@ -38,7 +38,7 @@ function parseSubtitles(subtitlesText) {
   return subtitles;
 }
 
-const subtitlesText = `1
+const subtitlesText = `1es bi
 00:00:01,000 --> 00:00:10,000
 Subtitles will go here, they won't start until :32 into the movie. :-)
 
@@ -284,8 +284,7 @@ Don't worry.
 
 61
 00:10:07,460 --> 00:10:10,360
-I'm taking you somewhere
-they will never find us.
+I'm taking you somewhere they will never find us.
 
 62
 00:10:27,890 --> 00:10:29,030
@@ -5339,7 +5338,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   setInterval(function () {
     const elapsedTime = Date.now() - startTime; // Calculate elapsed time since start
-    const currentTime = Math.floor(elapsedTime / 1000); // Convert elapsed time to seconds
+    const currentTime = Math.floor(elapsedTime / 1000 + 31); // Convert elapsed time to seconds
     console.log(currentTime);
 
     const currentSubtitle = subtitles.find(
