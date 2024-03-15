@@ -5345,9 +5345,9 @@ document.addEventListener("DOMContentLoaded", function () {
     ); // Find the subtitle for the current time
     console.log(currentSubtitle);
     if (currentSubtitle) {
-      subtitlesDiv.textContent = currentSubtitle.text;
+      subtitlesDiv.textContent = `> ${currentSubtitle.text} <`;
     } else {
-      subtitlesDiv.textContent = "";
+      subtitlesDiv.textContent = "> <";
     }
   }, 1000); // Check every second
 });
