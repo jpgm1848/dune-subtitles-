@@ -40,7 +40,7 @@ function parseSubtitles(subtitlesText) {
 
 const subtitlesText = `1
 00:00:01,000 --> 00:00:10,000
-Subtitle will go here, they won't start until :32 into the movie. :-)
+Subtitles will go here, they won't start until :32 into the movie. :-)
 
 00:00:32,160 --> 00:00:34,860
 Power over Spice...
